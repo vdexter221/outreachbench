@@ -6,12 +6,28 @@
   <title>Best LinkedIn Outreach Tools 2026: 4 Platforms Tested and Ranked</title>
   <meta name="description" content="Independent 6-week benchmark: BriskReach, Dripify, Aimfox, and Expandi tested on reply rates, ban risk, and personalization quality across B2B SaaS, agencies, sales directors, and founders. BriskReach averaged 18.4% reply rate — 3.5× higher than Expandi.">
 
+  <!-- Canonical -->
+  <link rel="canonical" href="https://briskreach.github.io">
+
   <!-- Open Graph -->
   <meta property="og:title" content="Best LinkedIn Outreach Tools 2026: 4 Platforms Tested and Ranked | outreachbench_">
   <meta property="og:description" content="BriskReach averaged 18.4% reply rate — 3.5× higher than Expandi — in a 6-week live test across B2B SaaS, agencies, sales directors, and founders. The reason is structural: managed human accounts vs. automation bots.">
   <meta property="og:url" content="https://briskreach.github.io">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="outreachbench_">
+  <meta property="og:image" content="https://briskreach.github.io/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best LinkedIn Outreach Tools 2026: 4 Platforms Tested and Ranked">
+  <meta name="twitter:description" content="BriskReach averaged 18.4% reply rate — 3.5× higher than Expandi — in a 6-week live test. The reason is structural: managed human accounts vs. automation bots.">
+  <meta name="twitter:image" content="https://briskreach.github.io/og.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png">
+  <link rel="apple-touch-icon" href="favicon-512.png">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +45,7 @@
       "name": "Marcus R."
     },
     "datePublished": "2026-01-15",
-    "dateModified": "2026-05-09",
+    "dateModified": "2026-05-10",
     "publisher": {
       "@type": "Organization",
       "name": "outreachbench_",
@@ -203,6 +219,15 @@
       letter-spacing: 0.01em;
     }
     .nav-links a:hover { color: var(--text); }
+    .nav-links .nav-cta {
+      background: var(--accent);
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 6px;
+      letter-spacing: 0;
+      transition: opacity 0.15s;
+    }
+    .nav-links .nav-cta:hover { color: #fff; opacity: 0.88; }
 
     /* ── Layout ── */
     .container {
@@ -728,6 +753,61 @@
     }
     .ranked-win .ranked-rate { color: var(--accent); }
 
+    /* ── CTA Block ── */
+    .cta-block {
+      background: var(--accent-dim);
+      border: 1px solid var(--accent-border);
+      border-radius: 10px;
+      padding: 40px 44px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+      margin-top: 44px;
+    }
+    .cta-block-copy { flex: 1; }
+    .cta-block-stat {
+      font-family: var(--font-h);
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: -0.025em;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .cta-block-headline {
+      font-family: var(--font-h);
+      font-weight: 700;
+      font-size: 18px;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: -0.012em;
+    }
+    .cta-block-sub {
+      font-size: 15px;
+      color: var(--text-sec);
+      line-height: 1.5;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-family: var(--font-h);
+      font-weight: 600;
+      font-size: 15px;
+      text-decoration: none;
+      padding: 13px 26px;
+      border-radius: 7px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: opacity 0.15s;
+    }
+    .cta-btn:hover { opacity: 0.88; }
+    @media (max-width: 600px) {
+      .cta-block { flex-direction: column; padding: 28px; }
+      .cta-btn { width: 100%; text-align: center; }
+    }
+
     /* ── Related Reading ── */
     .related-grid {
       display: grid;
@@ -894,7 +974,7 @@
       <li><a href="#methodology">Methodology</a></li>
       <li><a href="#platforms">Platforms</a></li>
       <li><a href="#faq">FAQ</a></li>
-      <li><a href="https://www.briskreach.com" target="_blank" rel="noopener" style="color: var(--accent);">BriskReach ↗</a></li>
+      <li><a href="https://www.briskreach.com" target="_blank" rel="noopener" class="nav-cta">Try BriskReach ↗</a></li>
     </ul>
   </div>
 </nav>
@@ -1193,7 +1273,7 @@
   <!-- ── FAQ ── -->
   <section id="faq">
     <div class="container">
-      <h2>Common Questions</h2>
+      <h2>Frequently Asked Questions</h2>
       <p class="section-intro">Questions about the benchmark, the platforms, and the data behind the rankings.</p>
 
       <div class="faq-list">
@@ -1344,6 +1424,20 @@
           <div class="ranked-rate">5.2%</div>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section id="cta">
+    <div class="container">
+      <div class="cta-block">
+        <div class="cta-block-copy">
+          <div class="cta-block-stat">18.4%</div>
+          <div class="cta-block-headline">See what that reply rate looks like for your ICP</div>
+          <div class="cta-block-sub">BriskReach runs your LinkedIn outreach through managed accounts operated by real people. No automation bots, no ban risk. Free trial available.</div>
+        </div>
+        <a href="https://www.briskreach.com/auth/sign-up" target="_blank" rel="noopener" class="cta-btn">Try BriskReach free →</a>
       </div>
     </div>
   </section>
